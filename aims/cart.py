@@ -25,3 +25,12 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
+
+    def print_cart(self):
+        """In danh sách đĩa trong giỏ và tổng tiền."""
+        print("*********************** CART ***********************")
+        print("Ordered Items:")
+        for i, item in enumerate(self.items, start=1):
+            print(f"{i}. {item}")
+        print(f"Total cost: {self.total_cost():.2f} $")
+        print("****************************************************")
