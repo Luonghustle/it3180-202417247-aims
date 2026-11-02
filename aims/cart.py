@@ -28,6 +28,9 @@ class Cart:
 
     def print_cart(self):
         """In danh sách đĩa trong giỏ và tổng tiền."""
+        if not self.items:
+            print("The cart is empty")
+            return
         print("*********************** CART ***********************")
         print("Ordered Items:")
         for i, item in enumerate(self.items, start=1):
