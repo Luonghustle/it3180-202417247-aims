@@ -4,6 +4,8 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi tại đây.
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/), đánh số theo [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+### Added
+- `Cart.sort_by_title()` và `Cart.sort_by_cost()`
 
 ## [1.0.0] - 2026-11-02
 ### Added
