@@ -6,6 +6,7 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi tại đây.
 ## [Unreleased]
 ### Added
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()`
+- `search_by_category()` trong `aims/search.py`
 
 ## [1.0.0] - 2026-11-02
 ### Added
