@@ -10,6 +10,10 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi tại đây.
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()`
 - `search_by_category()` trong `aims/search.py`
 
+## [1.0.1] - 2026-11-02
+### Fixed
+- `search_by_title` không phân biệt hoa thường (#21)
+
 ## [1.0.0] - 2026-11-02
 ### Added
 - `Cart.print_cart()` in chi tiết giỏ hàng; giỏ trống in "The cart is empty" (#4)
@@ -38,6 +42,7 @@ Bản nộp Lab 01 (`release/lab01`).
 
 [Unreleased]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v1.0.0...v1.1.0
+[1.0.1]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v0.3.0...v1.0.0
 [0.3.0]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Luonghustle/it3180-202417247-aims/compare/v0.1.0...v0.2.0
